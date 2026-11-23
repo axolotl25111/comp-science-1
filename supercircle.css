@@ -1,0 +1,219 @@
+@font-face{
+	font-family: vocaloid;
+	src: url(VOC-RE.ttf);
+}
+#bgnum{
+	width: 100%;
+	height: 100%;
+	background-color: #bbaadd;
+	z-index: -1;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+#stand{
+	position: absolute;
+	height: 500%;
+	width: 10%;
+	top: 0%;
+	right: 0%;
+	background-color: #ed7688;
+	display: block;
+	z-index: 20;
+	border-left: 15px #cb6776 solid;
+	-webkit-transition: all 650ms ease;
+	-moz-transition: all 650ms ease;
+	-ms-transition: all 650ms ease;
+	-o-transition: all 650ms ease;
+	transition: all 650ms ease;
+}
+#vbimg{
+	height:700px;
+	display: block; 
+	margin: auto; 
+	margin-top: 29px;
+	bottom: 0%;
+	position: relative;
+	right: 60%;
+	filter: brightness(50%);
+	-webkit-transition: all 650ms ease;
+	-moz-transition: all 650ms ease;
+	-ms-transition: all 650ms ease;
+	-o-transition: all 650ms ease;
+	transition: all 650ms ease;
+}
+#vbimg:hover{
+	filter: brightness(100%);
+}
+.circle{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: auto;
+}
+#miku{
+	background-color: #537979;
+}
+#teto{
+	background-color: #ed7688;
+}
+#kafu{
+	background-color: #aaaabb;
+}
+#chisA{
+	background-color: #96988e;
+}
+#adachi{
+	background-color: #b54e21;
+}
+#animat{
+	-webkit-transition: all 650ms ease;
+	-moz-transition: all 650ms ease;
+	-ms-transition: all 650ms ease;
+	-o-transition: all 650ms ease;
+	transition: all 650ms ease;
+}
+.placeholder{
+	height: 300px;
+	width: 300px;
+	background-color: #00FF00;
+	border-radius: 15px;
+	-webkit-transition: all 650ms ease;
+	-moz-transition: all 650ms ease;
+	-ms-transition: all 650ms ease;
+	-o-transition: all 650ms ease;
+	transition: all 650ms ease;
+}
+.imgsnstuff #one{
+	position: absolute;
+	right: 24%;
+	top: 4%;
+	filter: brightness(50%);
+	/*-webkit-transition: all 650ms ease;
+	-moz-transition: all 650ms ease;
+	-ms-transition: all 650ms ease;
+	-o-transition: all 650ms ease;
+	transition: all 650ms ease;*/
+}
+.imgsnstuff #one:hover{
+	filter: brightness(100%);
+}
+.imgsnstuff #two{
+	position: absolute;
+	width: 600px;
+	height: 320px;
+	left: 12%;
+	top: 15%;
+	filter: brightness(50%);
+	/*-webkit-transition: all 650ms ease;
+	-moz-transition: all 650ms ease;
+	-ms-transition: all 650ms ease;
+	-o-transition: all 650ms ease;
+	transition: all 650ms ease;*/
+}
+.imgsnstuff #two:hover{
+	filter: brightness(100%);
+}
+.imgsnstuff #three{
+	position: absolute;
+	bottom: 5%;
+	right: 26%;
+	width: 250px;
+	height: 350px;
+	filter: brightness(50%);
+	/*-webkit-transition: all 650ms ease;
+	-moz-transition: all 650ms ease;
+	-ms-transition: all 650ms ease;
+	-o-transition: all 650ms ease;
+	transition: all 650ms ease;*/
+}
+.imgsnstuff #three:hover{
+	filter: brightness(100%);
+}
+.imgsnstuff #four{
+	position: absolute;
+	bottom: 5%;
+	height: 250px;
+	left: 12%;
+	width: 350px;
+	filter: brightness(50%);
+	/*-webkit-transition: all 650ms ease;
+	-moz-transition: all 650ms ease;
+	-ms-transition: all 650ms ease;
+	-o-transition: all 650ms ease;
+	transition: all 650ms ease;*/
+}
+.imgsnstuff #four:hover{
+	filter: brightness(100%);
+}
+.imgsnstuff #five{
+	position: absolute;
+	bottom: 5%;
+	left: 38%;
+	width: 250px;
+	height: 250px;
+	filter: brightness(50%);
+	/*-webkit-transition: all 650ms ease;
+	-moz-transition: all 650ms ease;
+	-ms-transition: all 650ms ease;
+	-o-transition: all 650ms ease;
+	transition: all 650ms ease;*/
+}
+.imgsnstuff #five:hover{
+	filter: brightness(100%);
+}
+#namebanner{
+	height: 100%;
+	width: 10%;
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+}
+#name{
+	width: 580%;
+	height: 20%;
+	position: absolute;
+	font-size: 70px;
+	font-family: vocaloid;
+	color: #9a656d;
+	top: 30%;
+	left: -235%;
+	display: inline-block;
+	transform: rotate(-90deg);
+	-webkit-transition: all 650ms ease;
+	-moz-transition: all 650ms ease;
+	-ms-transition: all 650ms ease;
+	-o-transition: all 650ms ease;
+	transition: all 650ms ease;
+}
+#sftwr{
+	width: 580%;
+	height: 20%;
+	position: absolute;
+	font-size: 35px;
+	font-family: vocaloid;
+	top: 30%;
+	left: -180%;
+	display: inline-block;
+	transform: rotate(-90deg);
+	color: #9a656d;
+	-webkit-transition: all 650ms ease;
+	-moz-transition: all 650ms ease;
+	-ms-transition: all 650ms ease;
+	-o-transition: all 650ms ease;
+	transition: all 650ms ease;
+}
+#buttons{
+	margin-left: 10%;
+	background-color: white;
+	width: 30%;
+	height: 10%;
+	display: flex;
+	align-items: center;
+	border-radius: 20px;
+	position: absolute;
+	z-index: 10;
+}
